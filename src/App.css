@@ -8,11 +8,30 @@
   background-color: #000;
 }
 
+.pageblack,
+.pagewhite,
+.pageyellow,
+.pagegreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.pageblack {
+  background-color: #000;
+}
+.pagewhite {
+  background-color: #fff;
+}
+.pageyellow {
+  background-color: yellow;
+}
+.pagegreen {
+  background-color: green;
+}
+
 .buttons {
-  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .button-dark {
@@ -27,5 +46,28 @@
 .button-light {
   width: 150px;
   padding: 0.5rem;
+  margin-right: 10px;
   border: 2px solid #000;
+}
+
+.button-extra {
+  width: 150px;
+  padding: 0.5rem;
+  border: 2px solid #000;
+}
+
+.button-black,
+.button-white,
+.button-yellow,
+.button-green {
+  background-color: #000;
+  color: #fff;
+  width: 150px;
+  padding: 0.5rem;
+  margin-right: 10px;
+  border: 2px solid #fff;
+}
+
+.button-green {
+  margin: 0;
 }
